@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    background-color: black;
+    border: none;
+    color: white;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.section-top {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(204, 204, 204);
+    background-image: url('imgs/tree.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.section-about {
+    background-color: rgb(52, 49, 59);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-left {
+    text-transform: uppercase;
+}
+
+.nav-left span {
+    color: rgb(248, 103, 103);
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+.nav-right a:hover {
+    color: rgb(248, 103, 103);
+}
+
+.nav-right button {
+    background-color: transparent;
+    color: rgb(248, 103, 103);
+    border: 1px solid rgb(248, 103, 103);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 30px;
+}
+
+.nav-right button:hover {
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.personalInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portrait-img {
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.personalInfo .name p {
+    color: rgb(248, 103, 103);
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.personalInfo .job p {
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.portrait-about-img {
+    max-width: 100%;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    width: 50%;
+}
+
+.basicInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-content h3 {
+    color: rgb(248, 103, 103);
+}
+
+.about-content h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.about-content hr {
+    border: 1px solid rgb(248, 103, 103);
+    width: 50px;
+    margin-left: 0;
+    margin-top: 0 0;
+}
+
+.about-content p {
+    margin: 30px 0;
+}
+
+.basicInfo {
+    border: 3px solid rgb(248, 103, 103);
+    padding-left: 20px;
+}
+
+.basicInfo span {
+    font-weight: bold;
+}
+
+.basicInfo-left,
+.basicInfo-right {
+    width: 50%;
+}
+
+.about-content button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    padding: 10px 0;
+    margin-top: 80px;
+    background-color: rgb(248, 103, 103);
+
+}
